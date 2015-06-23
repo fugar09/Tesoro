@@ -1,0 +1,30 @@
+****Lista de Anillos****
+Id: 0 Peso 254 Valor: 126
+Id: 1 Peso 295 Valor: 169
+Id: 2 Peso 245 Valor: 128
+Id: 3 Peso 203 Valor: 138
+Id: 4 Peso 209 Valor: 145
+
+****Lista de Collares***
+Id: 5 Peso: 959 Valor: 3853
+Id: 6 Peso: 695 Valor: 2389
+Id: 7 Peso: 578 Valor: 3360
+
+****Lista de Coronas***
+Id: 8 Peso: 2791 Valor: 5082
+Id: 9 Peso: 2871 Valor: 1166
+Id: 10 Peso: 2417 Valor: 6173
+Id: 11 Peso: 2481 Valor: 3971
+Id: 12 Peso: 2058 Valor: 2655
+Id: 13 Peso: 2491 Valor: 4710
+
+****Lista de Monedas***
+Id: 14 Peso: 156 Valor: 27
+Id: 15 Peso: 101 Valor: 89
+Id: 16 Peso: 179 Valor: 90
+Id: 17 Peso: 195 Valor: 90
+Id: 18 Peso: 192 Valor: 90
+Id: 19 Peso: 129 Valor: 20
+Id: 20 Peso: 110 Valor: 13
+Id: 21 Peso: 147 Valor: 31
+Id: 22 Peso: 146 Valor: 1

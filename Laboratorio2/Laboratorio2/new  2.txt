@@ -1,0 +1,32 @@
+    ActiveCell.Value = "Atrapamientos"
+    Cells(ActiveCell.Row, 3).Activate
+    
+    If LOTO Then
+        Do While Not IsEmpty(ActiveCell)
+            ActiveCell.Offset(1, 0).Activate
+        Loop
+        ActiveCell.Value = "Aplicar procedimiento de Bloqueo y Etiquetado"
+    End If
+    
+    If CeroEnergia Then
+       Do While Not IsEmpty(ActiveCell)
+            ActiveCell.Offset(1, 0).Activate
+        Loop
+            ActiveCell.Value = "Verificar Cero Energía"
+    End If
+	
+	
+	
+	
+	
+	ActiveCell.Value = riesgo
+Cells(ActiveCell.Row, 3).Activate
+    
+For i = 0 To ListBox2.ListCount - 1
+    If ListBox2.Selected(i) Then
+        Do While Not IsEmpty(ActiveCell)
+            ActiveCell.Offset(1, 0).Activate
+        Loop
+    ActiveCell.Value = ListBox2.List(i)
+    End If
+Next i

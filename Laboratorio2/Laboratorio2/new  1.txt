@@ -1,0 +1,32 @@
+x = UBound(matrizRiesgos, 1) - LBound(matrizRiesgos, 1) + 1
+y = UBound(matrizRiesgos, 2) - LBound(matrizRiesgos, 2) + 1
+
+ReDim Preserve matrizRiesgos(x + 1, y + 1)
+    
+Dim i As Integer
+Dim riesgo As String
+For i = 0 To ListBox1.ListCount - 1
+    If ListBox1.Selected(i) Then
+        riesgo = ListBox1.List(i)
+    End If
+Next i
+    
+Dim contContraMedidas As Integer
+Dim contramedidas As String
+For i = 0 To ListBox2.ListCount - 1
+    If ListBox2.Selected(i) Then
+        contramedidas = contramedidas & "|" & ListBox2.List(i)
+        contContraMedidas = contContraMedidas + 1
+    End If
+Next i
+
+Dim listaContramedidas() As String
+listaContramedidas = Split(contramedidas, "|")
+
+matrizRiesgos(0, y + 1) = riesgo
+For i = 0 To contContraMedidas
+    matrizRiesgos(i + 1, y + 1) = listaContramedidas(i)
+Next i
+
+MsgBox (matrizRiesgos)
+MsgBox ("entro")
