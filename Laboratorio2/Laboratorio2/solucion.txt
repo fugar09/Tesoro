@@ -1,7 +1,7 @@
-Capacidad del bulto: 1389 gramos
-Maxima Ganacia: 451
-Peso alcanzado 1355
-Numero de iteraciones: 1037
+Capacidad del bulto: 1175 gramos
+Maxima Ganacia: 254
+Peso alcanzado 753
+Numero de iteraciones: 77
 ****Anillos seleccionados****
 
 ****Collares seleccionados****
@@ -9,12 +9,8 @@ Numero de iteraciones: 1037
 ****Coronas seleccionados****
 
 ****Monedas seleccionados****
-Id: 14 Peso: 156 Valor: 27
-Id: 15 Peso: 101 Valor: 89
-Id: 16 Peso: 179 Valor: 90
-Id: 17 Peso: 195 Valor: 90
-Id: 18 Peso: 192 Valor: 90
-Id: 19 Peso: 129 Valor: 20
-Id: 20 Peso: 110 Valor: 13
-Id: 21 Peso: 147 Valor: 31
-Id: 22 Peso: 146 Valor: 1
+Id: 14 Peso: 116 Valor: 49
+Id: 15 Peso: 152 Valor: 41
+Id: 16 Peso: 185 Valor: 94
+Id: 17 Peso: 173 Valor: 60
+Id: 18 Peso: 127 Valor: 10

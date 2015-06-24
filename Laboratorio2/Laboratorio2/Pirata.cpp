@@ -127,15 +127,10 @@ void Pirata::bulto(int p1, int p2, int p3, int p4, Tesoro t){
 			gananciaMax= getValor(t);
 			pesoAlcanzado= getPeso(t);
 			copiarVector(anillos,anillosSolucion,cantAnillos);
-			anillosSolucion= anillos;
-			collaresSolucion= collares;
 			copiarVector(collares,collaresSolucion,cantCollares);
-			coronasSolucion= coronas;
 			copiarVector(coronas,coronasSolucion,cantCoronas);
-			monedasSolucion= monedas;
 			copiarVector(monedas,monedasSolucion,cantMonedas);
 			escribirSolucion(t);
-
 		}
 
 	}else{
@@ -216,7 +211,7 @@ void Pirata::escribirSolucion(Tesoro t){
 
 void Pirata::copiarVector(int*& vOriginal, int*& VCopiado, int tamano){
 	for (int i=0;i<tamano;++i){
-		VCopiado[0]= vOriginal[0];
+		VCopiado[i]= vOriginal[i];
 	}
 }
 

@@ -36,8 +36,8 @@ private:
 	int cantCollares;
 	int cantCoronas;
 	int cantMonedas;
-	int gananciaMax=0;
-	int pesoAlcanzado=0;
+	int gananciaMax;
+	int pesoAlcanzado;
 	int const CAP_MAX= 2000;
 	int const CAP_MIN= 1000;
 	int const CAP_BULTO= rand()%(CAP_MAX-CAP_MIN)+CAP_MIN;
